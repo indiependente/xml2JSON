@@ -15,7 +15,7 @@ function xml2JSON(url, callback){
 		}).
 		on('end', function(){
 		    parser.parseString(fileContent, function (err, result) {
-		        console.log(filename+' converted into a JavaScript Object.');
+		        // console.log(filename+' converted into a JavaScript Object.');
 		        if (err)
 		        	callback(err);
 		        callback(null, result);
