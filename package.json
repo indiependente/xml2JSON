@@ -1,0 +1,25 @@
+{
+  "name": "xml2JSON",
+  "version": "0.0.1",
+  "description": "A simple XML to JS Object converter.",
+  "main": "xml2JSON",
+  "dependencies": {
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/indiependente/xml2JSON"
+  },
+  "keywords": [
+    "URL",
+    "XML",
+    "JSON",
+    "convert"
+  ],
+  "author": "indiependente",
+  "license": "MIT"
+}
